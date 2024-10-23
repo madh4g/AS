@@ -1,0 +1,247 @@
+body {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 15px;
+    font-family: "Textualis",serif;
+    color: #547994;
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+  }
+
+
+/* Dropdown Container menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Button Styling */
+.dropbtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* Icon Styling */
+.menu-icon {
+    margin-bottom: 0px;
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Dropdown Content Styling */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: transparent;
+    z-index: 1;
+    text-align: left; /* Center text inside the dropdown */
+}
+
+.dropdown-content a {
+    color: #547994;
+    font-family:"Tahoma", sans-serif;
+font-size: 10pt;   
+ padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #e3dcdc;
+
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}/* Dropdown Container menu */
+
+
+  
+    /* milk? */
+    h1 {
+        font-family: "Textualis", serif;
+        background-color: transparent;
+        color: #547994;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 50px;
+      } /* milk */
+
+     /* milk home */
+
+      h2 {
+        font-family: "Textualis", serif;
+        background-color: transparent;
+        color: #547994;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 40px;
+      } /* milk home */
+     
+      /* milk pg3 */
+      h3 {
+        font-family: "Textualis", serif;
+        background-color: transparent;
+        color: #547994;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 50px;
+      } /* milk */
+
+      /* milk tarot title */
+ h4 {
+  font-family: "Textualis", serif;
+  background-color: transparent;
+  color: #547994;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  text-align: center;
+  font-size: 70px;
+} /* milk tarot title */
+
+ /* goat milk */
+ h5 {
+    font-family: "Textualis", serif;
+    background-color: transparent;
+    color: #547994;
+    margin-top: 30px;
+    padding-bottom: 150px;
+    margin-left: 225px;
+    margin-right: 225px;
+    text-align: center;
+    font-size: 40px;
+  } /* goat milk */
+
+
+
+
+ /* milk img*/
+  img{
+    max-height: 700px;
+    margin-top: 0px;
+  }
+  .image-text-container {
+    display: flex; /* Aligns the image and text side by side */
+    align-items: center; /* Vertically centers the text with the image */
+    gap: 0px; /* Space between the image and the text */
+
+    margin-top: 0px;
+  } /* milk img*/
+  
+
+
+     /* p in p1.1  */
+
+  .text-content p {
+    text-align:bottom;
+    margin: 0;
+    font-size: 17px; /* Adjusts the font size of the paragraph */
+    color: #1a1515; /* Text color */
+    line-height: 1.5; /* Improves readability */
+  }      /* p in p1.1 */
+
+ /* p1, cow imgs y/n */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+    gap: 10px; /* Adds space between grid items */
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #f5f5f5;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains the aspect ratio */
+    display: block;
+} /* p1, cow imgs y/n */
+
+ /* p1.1, milk imgs java*/
+ .image-container {
+    position: relative;
+    width: 800px; /* Set container size */
+    height: 1000px;
+    background-image: url('images/fridgemilk.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden; /* Hide overflow */
+    border: 0px solid #333;
+}
+
+
+
+   * {   /* Container for images */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+      
+   .image-container {
+    margin-top: 900px;
+    width: 700px;
+    height: 900px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}   /* Container for images */
+
+.draggable {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    cursor: pointer;
+    display: block; /* Ensures no extra space is added */
+
+}
+
+#spiltmilk1 {
+  position: absolute;
+  top: 330px;  /* 50px from the top */
+  left: 180px; /* 100px from the left */
+}
+
+
+#oatmilk {
+  position: absolute;
+  top: 140px;  /* 50px from the top */
+  left: 165px; /* 100px from the left */
+}
+
+#goatmilk {
+  position: absolute;
+  top: 260px;  /* 50px from the top */
+  left: 355px; /* 100px from the left */
+}
+
+#cowmilk {
+  position: absolute;
+  top: 445px;  /* 50px from the top */
+  left: 140px; /* 100px from the left */
+}
+
+#nutmilk {
+  position: absolute;
+  top: 445px;  /* 50px from the top */
+  left: 350px; /* 100px from the left */
+} /* p1.1, milk imgs java*/
