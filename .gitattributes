@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+    <link rel="stylesheet" href="index.css">
+    <link rel="html" href="index.html">
